@@ -11,8 +11,8 @@ function updateMessage() {
 function moveButton() {
     const button = document.getElementById('noButton');
     button.style.position = 'relative';
-    button.style.left = `calc(${(Math.random() * 50).toFixed(0)}vw - 10vw)`;
-    button.style.top = `calc(${(Math.random() * 50).toFixed(0)}vh - 10vh)`;
+    button.style.left = `calc(${(Math.random() * 50).toFixed(0)}vw - ${(Math.random() * 50).toFixed(0)}vw)`;
+    button.style.top = `calc(${(Math.random() * 25).toFixed(0)}vh - ${(Math.random() * 50).toFixed(0)}vh)`;
     console.log("test moovement: " + button.style.left);
 }
 
