@@ -1,6 +1,6 @@
 function updateMessage() {
     const message = document.getElementById('message');
-    message.innerHTML = 'Спасибо, что стала моей валентинкой, сладость моя!';
+    message.innerHTML = 'Спасибо, что стала моей валентинкой, моя сладкая❤️❤️❤️';
     
     const image = document.getElementById('image');
     image.src = 'kittykiss-little-kitty.gif';
